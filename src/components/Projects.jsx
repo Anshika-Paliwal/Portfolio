@@ -41,7 +41,7 @@ const Projects = () => {
           </p>
           <div className="flex flex-col justify-center items-center m-4">
             <a
-              href="https://www.appdeployers.com/"
+              href="https://www.appsdeployer.com/"
               target="_blank"
               rel="noopener noreferrer"
             >

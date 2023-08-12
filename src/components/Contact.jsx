@@ -92,11 +92,35 @@ const Contact = () => {
 
       <div className="flex-1 h-0.5 bg-gray-300 mx-60"></div>
 
-      <div className="mt-10 pt-4 lg:pt-4 font-semibold bg-rose-100 flex justify-center items-center h-32">
+      <div className="mt-10 px-4 pt-4 lg:pt-4 font-semibold bg-rose-100 flex justify-center items-center h-24">
         <h1 className="text-md">
+          This portfolio is Open Source and source code can be found on
+          <span>
+            <a
+              href="https://github.com/Anshika-Paliwal/Portfolio"
+              className="text-rose-600 hover:text-black hover:underline ml-1 transition ease-all linear"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </span>
+        </h1>
+      </div>
+      <div className="pt-2 lg:pt-2 font-semibold bg-rose-100 flex justify-center items-center h-10 pb-14">
+        <h1 className="text-md">
+          &#169; <span className="mr-1.5">2023</span>
           Made with
           <BsFillSuitHeartFill className="m-2 inline text-2xl text-red-600 animate-pulse" />
-          by Anshika Paliwal!!!
+          by
+          <a
+            href="https://twitter.com/AnshikaPaliwal4"
+            className="text-rose-600 hover:text-black hover:underline ml-1 transition ease-all linear"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Anshika Paliwal
+          </a>
         </h1>
       </div>
     </>
