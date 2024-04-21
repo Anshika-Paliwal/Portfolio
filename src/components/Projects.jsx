@@ -73,6 +73,30 @@ const Projects = () => {
             </a>
           </div>
         </div>
+
+        <div className="w-full sm:w-1/2 md:w-1/4 border border-gray-400 rounded-md p-4 m-4 hover:shadow-xl hover:bg-rose-50">
+          <div className="flex items-center justify-center">
+            <h2 className="text-gray-800 text-lg font-bold mx-2 text-center tracking-wide">
+              Rohtak Dome
+            </h2>
+          </div>
+          <p className="text-gray-600 mt-4 text-center">
+            My first freelance project where I built a completely Responsive Web
+            App(including Logo Design, UI/UX, Content Writing) for an architect
+            firm who build Sustainable Dome style roofs.{" "}
+          </p>
+          <div className="flex flex-col justify-center items-center m-4">
+            <a
+              href="https://rohtakdome.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-none text-red-500 hover:text-white hover:bg-rose-600 text-xs font-semibold border-2 border-rose-600 py-2 px-4 rounded-full">
+                Visit!
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
