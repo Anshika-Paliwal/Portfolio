@@ -52,7 +52,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://www.instagram.com/___anshika.__/"
+              href="https://www.instagram.com/anshikaapaliwal/"
               target="_blank"
               rel="noopener noreferrer"
             >
